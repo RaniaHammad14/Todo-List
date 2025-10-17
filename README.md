@@ -30,3 +30,7 @@ Handling events and using event delegation.
 Using localStorage to save data.
 Adding animations and custom alerts for better UX.
 Writing clean, modular JS code for UI interactions.
+
+
+https://github.com/user-attachments/assets/cb5b1bc7-3fba-4ce6-84c4-c97176399d4d
+
