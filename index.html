@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-do List</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- main container -->
+    <section class="container">
+      <h1 class="animate__animated animate__fadeInUp">To-Do List</h1>
+      <h3 class="animate__animated animate__fadeInUp">Plan it. Do it. Done. One click at a time. Your daily mission starts here.</h3>
+      <div class="todo-container animate__animated animate__fadeInUp">
+        <form id="todo-form">
+          <input type="text" id="todo-input" placeholder="Add a new task..." />
+          <button type="submit" id="add-btn">Add</button>
+        </form>
+
+        <ul id="todo-list"></ul>
+      </div>
+      <button class="delete-btn animate__animated animate__fadeInUp">Delete All Tasks</button>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
